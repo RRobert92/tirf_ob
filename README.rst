@@ -3,10 +3,7 @@ TIRF Object Cropping [tirf_ob]
 ================================
 
 .. image:: https://img.shields.io/github/v/release/RRobert92/tirf_ob
-        :target: https://img.shields.io/github/v/release/SMLC-NYSBC/Semantic_Label_Creator
-
-.. image:: https://github.com/RRobert92/tirf_ob/actions/workflows/python-publish_PyPi.yml/badge.svg
-        :target: https://github.com/RRobert92/tirf_ob/actions/workflows/python-publish_PyPi.yml
+        :target: https://img.shields.io/github/v/release/RRobert92/tirf_ob
 
 
 Python package for cropping images based on input coordinates.
