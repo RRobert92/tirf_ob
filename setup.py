@@ -8,7 +8,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = ['click==8.0.1',
-                'numpy==1.21.0',
+                'numpy==1.22.0',
                 'tifffile==2021.7.2'
                 ]
 
