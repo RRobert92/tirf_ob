@@ -1,5 +1,5 @@
 import numpy as np
-from tifffile import tifffile
+import tifffile.tifffile as tif
 
 
 def load_image_to_numpy(dir: str):
@@ -12,7 +12,7 @@ def load_image_to_numpy(dir: str):
     """
 
     try:
-        image = tifffile.imread(dir)
+        image = tif.imread(dir)
     except RuntimeWarning:
         raise Warning("Directory for the file is not correct, file not found!")
 

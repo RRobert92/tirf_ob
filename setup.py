@@ -8,7 +8,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = ['click==8.0.1',
-                'numpy==1.22.0',
+                'numpy==1.21.0',
                 'tifffile==2021.7.2'
                 ]
 
@@ -27,7 +27,7 @@ setup(
     long_description=readme,
     entry_points={
         'console_scripts': [
-            'crop_trif=tirf_ob.select_from_ROI:main',
+            'crop_tirf=tirf_ob.select_from_ROI:main',
         ],
     },
     install_requires=requirements,
